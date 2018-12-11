@@ -1,0 +1,33 @@
+{
+  "name": "@reeli/markdown-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reeli/markdown-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reeli/markdown-loader/issues"
+  },
+  "homepage": "https://github.com/reeli/markdown-loader#readme",
+  "devDependencies": {
+    "@types/webpack": "4.4.20",
+    "prettier": "1.15.3",
+    "ts-node": "7.0.1",
+    "typescript": "3.2.1",
+    "webpack": "4.27.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  },
+  "dependencies": {
+    "loader-utils": "1.1.0",
+    "schema-utils": "1.0.0"
+  }
+}
