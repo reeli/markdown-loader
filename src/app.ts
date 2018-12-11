@@ -1,3 +1,3 @@
-const txt = require("./test.txt");
+const txt = require("./README.md");
 
-console.log("txt", txt);
+console.log("md", JSON.stringify(txt));

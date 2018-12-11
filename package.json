@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/reeli/markdown-loader#readme",
   "devDependencies": {
+    "@types/marked": "0.5.0",
     "@types/webpack": "4.4.20",
     "prettier": "1.15.3",
     "ts-node": "7.0.1",
@@ -27,7 +28,9 @@
     "webpack-dev-server": "3.1.10"
   },
   "dependencies": {
+    "html-loader": "0.5.5",
     "loader-utils": "1.1.0",
+    "marked": "0.5.2",
     "schema-utils": "1.0.0"
   }
 }

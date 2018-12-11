@@ -10,8 +10,11 @@ const webpackConfig: Configuration = {
   module: {
     rules: [
       {
-        test: /\.txt$/,
+        test: /\.md$/,
         use: [
+          {
+            loader: "html-loader",
+          },
           {
             loader: path.resolve(__dirname, "./src/txt-loader.js"),
             options: {
